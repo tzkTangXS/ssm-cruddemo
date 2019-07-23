@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!--驼峰命名规范-->
+        <!--是否开启自动驼峰命名规则（camel case）映射，
+        即从经典数据库列名 A_COLUMN 到经典 Java 属性名 aColumn 的类似映射。
+        -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <!--别名配置-->
+    <typeAliases>
+        <package name="tzk.been"/>
+    </typeAliases>
+    <!--配置分页插件-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!--分页合理化-->
+            <property name="reasonable" value="true"/>
+        </plugin>
+    </plugins>
+</configuration>
