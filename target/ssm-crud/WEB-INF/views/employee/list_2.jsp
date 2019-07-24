@@ -50,12 +50,14 @@
                                    <label for="empName_add" class="col-sm-2 control-label">员工姓名</label>
                                    <div class="col-sm-10">
                                        <input type="text" name="empName" class="form-control" id="empName_add" placeholder="张三">
+                                       <span  class="help-block"></span>
                                    </div>
                                </div>
                                <div class="form-group">
                                    <label for="email_add" class="col-sm-2 control-label">邮&emsp;箱</label>
                                    <div class="col-sm-10">
                                        <input type="text" name="email" class="form-control" id="email_add" placeholder="23421341@qq.com">
+                                       <span  class="help-block"></span>
                                    </div>
                                </div>
                                <div class="form-group">
@@ -92,9 +94,9 @@
         </div>
     <%--列表--%>
     <div class="row">
-        <div class="col-md-7 col-md-offset-2 col-xs-8">
+        <div class="col-md-7 col-md-offset-2 col-xs-12">
             <div class="table-responsive">
-                <table id="table" class="table table-hover">
+                <table id="table"  class="table table-hover">
                     <thead>
                     <th>ID</th>
                     <th>员工姓名</th>
@@ -265,10 +267,20 @@
 
     }
     /*=============================================点击添加按钮=============================================*/
+
+
     $("#bt_add").click(function () {
         /*发送Ajax请求，查出部门信息*/
         getDepts();
         //弹出模态框
+        /**
+         * 1.弹出模态框时，清空数据
+         * 2.清空验证属性
+         * */
+        $("#modal form")[0].reset();
+        clearValidationAboutModel($("#empName_add"));
+        clearValidationAboutModel($("#email_add"));
+        /*设置模态框属性*/
         $("#modal").modal({
             backdrop:"static"
         });
@@ -292,17 +304,106 @@
 
         });
     }
-    $("#emp_save_bt").click(function () {
+    /*==============正则校验================*/
+    function validationEmp(){
+        var judge =false;
+        var empName = $("#empName_add").val();
+        var email = $("#email_add").val();
+        var regName = /(^[a-zA-Z]{6,16}$)|(^[\u2E80-\u9FFF]{2,4}$)/;
+        var regemail = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+        // alert(regName.test(empName));
+        // alert(regemail.test(email));
+        /*++++验证姓名++++*/
+        if(regName.test(empName)){
+            changeInformationAboutValidation($("#empName_add"),"success","");
+            changeInformationAboutValidation($("#email_add"),"error","邮箱格式不正确!");
+            if(regemail.test(email)){
+                changeInformationAboutValidation($("#email_add"),"success","");
+                judge = true;
+            }
+        }else {
+            changeInformationAboutValidation($("#empName_add"),"error","员工姓名必须为：6～16字母或者2~4个中文字符组成!");
+            changeInformationAboutValidation($("#email_add"),"error","邮箱格式不正确!");
+            if(regemail.test(email)){
+                changeInformationAboutValidation($("#email_add"),"success","");
+            }
+        }
+
+            return judge;
+
+
+    }
+    /**
+    * 清空模态框里的但验证属性
+     *
+     * */
+    function clearValidationAboutModel(id) {
+        var parent = id.parent();
+        var span=id.next("span");
+        parent.removeClass("has-success has-error");
+        span.removeClass("glyphicon glyphicon-ok");
+        span.text("");
+    }
+    function changeInformationAboutValidation(id, status, msg){
+            clearValidationAboutModel(id);
+        var parent = id.parent();
+        var span=id.next("span");
+        if("success" == status){
+            parent.addClass("has-success");
+            span.addClass("glyphicon glyphicon-ok");
+        }else {
+            parent.addClass("has-error");
+            span.append(msg);
+        }
+    }
+
+
+
+    $("#email_add").change(function () {
+        var email = this.value;
         $.ajax({
-            url:"${path}/employee/add",
+            url:"${path}/employee/addValidation",
+            data:"email="+email,
             type:"POST",
-            data:$("#modal form").serialize(),
-            success:function (result) {
-                alert(result.msg);
-                $("#modal").modal('hide');
-                skip_page(maxPageBigger);
+            success:function (msg) {
+                if(msg.cod==100){
+                    changeInformationAboutValidation($("#email_add"),"success","");
+                    $("#emp_save_bt").attr("email-va","success");
+                }else {
+                    changeInformationAboutValidation($("#email_add"),"error","该邮箱以绑定员工，不可用");
+                    $("#emp_save_bt").attr("email-va","error");
+                }
             }
         });
+    });
+
+    //点击保存按钮
+    $("#emp_save_bt").click(function () {
+        /*
+        * 1.使用jquery进行校验
+        * 2.提交请求给服务器
+        * */
+
+        if($(this).attr("email-va")=="error"){
+            return false;
+        }
+
+        if(!validationEmp()){
+            return;
+        }
+        setTimeout(function () {
+            $.ajax({
+                url:"${path}/employee/add",
+                type:"POST",
+                data:$("#modal form").serialize(),
+                success:function (result) {
+                    // alert(result.msg);
+                    $("#modal").modal('hide');
+                    skip_page(maxPageBigger);
+                }
+            });
+        },1)
+
     });
 </script>
 </body>

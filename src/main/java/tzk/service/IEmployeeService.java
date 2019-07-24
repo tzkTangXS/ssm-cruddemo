@@ -14,4 +14,6 @@ public interface IEmployeeService {
    void deletebyId(int id);
    void updata();
    void add(Employee employee);
+
+   boolean isHasEmail(String email);
 }

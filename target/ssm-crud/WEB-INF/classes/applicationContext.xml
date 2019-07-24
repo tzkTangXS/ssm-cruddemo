@@ -74,4 +74,5 @@
         </tx:attributes>
     </tx:advice>
     <bean id="msg" class="tzk.been.Msg"></bean>
+    <bean class="tzk.been.example.EmployeeExample"/>
 </beans>

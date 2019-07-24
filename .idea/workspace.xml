@@ -2,12 +2,113 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ssm-cruddemo:war exploded" />
+      <artifact name="ssm-crud:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2ccf62e-242e-4689-9cf3-7a3edede1aad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d4c8a297-c547-4595-a3ee-bb067b538bd6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d4c8a297-c547-4595-a3ee-bb067b538bd6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tzk/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tzk/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tzk/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tzk/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tzk/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tzk/service/IEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tzk/service/impl/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tzk/service/impl/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list_2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list_2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/test/tzk/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/test/tzk/MapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/been/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/been/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/been/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/been/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/been/Msg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/been/Msg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/been/example/DepartmentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/been/example/DepartmentExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/been/example/DepartmentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/been/example/DepartmentExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/been/example/DepartmentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/been/example/DepartmentExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/been/example/DepartmentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/been/example/DepartmentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/been/example/EmployeeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/been/example/EmployeeExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/been/example/EmployeeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/been/example/EmployeeExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/been/example/EmployeeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/been/example/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/been/example/EmployeeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/been/example/EmployeeExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/controller/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/controller/DepartmentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/dao/DepartmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/dao/DepartmentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/dao/EmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/dao/EmployeeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/service/IDepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/service/IDepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/service/IEmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/service/IEmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/service/impl/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/service/impl/DepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/service/impl/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/service/impl/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tzk/test/MBGTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tzk/test/MBGTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/Msg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/Msg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/DepartmentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/DepartmentExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/DepartmentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/DepartmentExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/DepartmentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/DepartmentExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/DepartmentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/DepartmentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/EmployeeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/EmployeeExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/EmployeeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/EmployeeExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/EmployeeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/EmployeeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/been/example/EmployeeExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/controller/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/controller/DepartmentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/dao/DepartmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/dao/DepartmentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/dao/EmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/dao/EmployeeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/service/IDepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/service/IDepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/service/IEmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/service/IEmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/service/impl/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/service/impl/DepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/service/impl/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/service/impl/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/test/MBGTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/classes/tzk/test/MBGTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/activation-1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/aspectjweaver-1.9.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/aspectjweaver-1.9.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/c3p0-0.9.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-dbcp2-2.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-dbcp2-2.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/fastjson-1.1.41.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/fastjson-1.1.41.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jackson-annotations-2.7.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jackson-annotations-2.7.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jackson-core-2.7.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jackson-core-2.7.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jackson-databind-2.7.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jackson-databind-2.7.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/javaee-api-7.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/javaee-api-7.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/javax.mail-1.5.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/javax.mail-1.5.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jsqlparser-0.9.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/mybatis-3.2.8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/mybatis-3.2.8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/mybatis-spring-1.2.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/mybatis-spring-1.2.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/mysql-connector-java-5.1.47.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/pagehelper-5.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/pagehelper-5.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/slf4j-api-1.7.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-context-support-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-context-support-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-orm-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-orm-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-oxm-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-oxm-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-test-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-test-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/views/employee/list_2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/WEB-INF/views/employee/list_2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-crud/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crud/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tzk/MVCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tzk/MVCTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tzk/MapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tzk/MapperTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,69 +166,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list_2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-662">
-              <caret line="211" column="47" selection-start-line="211" selection-start-column="47" selection-end-line="211" selection-end-column="47" />
-              <folding>
-                <element signature="e#2417#2423#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="-350">
+              <caret line="349" column="33" selection-start-line="349" selection-start-column="33" selection-end-line="349" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="53" />
+            <state relative-caret-position="578">
+              <caret line="76" column="52" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tzk/controller/DepartmentController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tzk/service/IEmployeeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="306">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tzk/service/IDepartmentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tzk/service/impl/DepartmentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tzk/service/impl/EmployeeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,16 +196,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tzk/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="72" column="38" lean-forward="true" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+            <state relative-caret-position="213">
+              <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2740#2741#0" expanded="true" />
+                <element signature="e#2764#2765#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tzk/service/impl/EmployeeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tzk/been/example/EmployeeExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1278">
+              <caret line="92" column="26" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tzk/been/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
@@ -158,20 +243,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tzk/test/MBGTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="346">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list.jsp">
+        <entry file="file://$PROJECT_DIR$/src/tests/test/tzk/MapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1314">
-              <caret line="73" column="35" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="35" />
+            <state relative-caret-position="316">
+              <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/test/tzk/MVCTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="44" column="72" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,6 +293,15 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lab</find>
+      <find>邮箱</find>
+      <find>span</find>
+      <find>crite</find>
+      <find>add</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -211,7 +323,6 @@
         <option value="$PROJECT_DIR$/src/main/java/tzk/been/Department.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/tzk/been/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tzk/service/IEmployeeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/tzk/service/IDepartmentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/tzk/service/impl/DepartmentService.java" />
         <option value="$PROJECT_DIR$/src/tests/test/tzk/MVCTest.java" />
@@ -224,17 +335,18 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/tzk/been/Msg.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/hello.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/tests/test/tzk/MapperTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/main/java/tzk/controller/DepartmentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tzk/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tzk/service/impl/EmployeeService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tzk/controller/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tzk/service/IEmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/hello.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/tzk/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/tests/test/tzk/MapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list_2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/tzk/service/impl/EmployeeService.java" />
       </list>
     </option>
   </component>
@@ -276,6 +388,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,7 +438,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tzk" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="been" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm-cruddemo" type="b2602c69:ProjectViewProjectNode" />
@@ -334,7 +448,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tzk" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm-cruddemo" type="b2602c69:ProjectViewProjectNode" />
@@ -368,14 +482,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-cruddemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-cruddemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm-cruddemo" type="b2602c69:ProjectViewProjectNode" />
@@ -429,20 +535,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaworkspeace/ssm-cruddemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.547599" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -553,9 +659,9 @@
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="ssm-cruddemo:war exploded">
+        <artifact name="ssm-crud:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/ssm_cruddemo_war_exploded" />
+            <option name="CONTEXT_PATH" value="/ssm_crud_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -619,6 +725,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="ssm-cruddemo:war exploded" />
+          <artifact name="ssm-crud:war exploded" />
         </option>
       </method>
     </configuration>
@@ -657,6 +764,7 @@
       <workItem from="1563806980198" duration="10527000" />
       <workItem from="1563840344179" duration="41373000" />
       <workItem from="1563892750281" duration="9464000" />
+      <workItem from="1563903863983" duration="20847000" />
     </task>
     <servers />
   </component>
@@ -693,7 +801,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107324000" />
+    <option name="totallyTimeSpent" value="128171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -705,20 +813,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7123696" visible="true" weight="0.21178432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7111111" visible="true" weight="0.17009449" />
       <window_info id="Structure" order="1" sideWeight="0.28314605" side_tool="true" weight="0.209005" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.28314605" side_tool="true" weight="0.209005" />
-      <window_info id="Web" order="7" sideWeight="0.2876304" side_tool="true" visible="true" weight="0.21178432" />
+      <window_info id="Web" order="7" sideWeight="0.2888889" side_tool="true" visible="true" weight="0.17009449" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921347" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4974986" visible="true" weight="0.2400906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.74597" visible="true" weight="0.2355606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39775282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -732,7 +840,7 @@
       <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.49972206" weight="0.035955057" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4991662" weight="0.3269663" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32921347" />
-      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50250137" side_tool="true" visible="true" weight="0.2400906" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.25403002" side_tool="true" visible="true" weight="0.2355606" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2495831" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -740,7 +848,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="JSF" order="6" weight="0.32962757" />
-      <window_info anchor="right" id="Database" order="7" weight="0.19733185" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.19733185" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="CDI" order="10" />
@@ -810,13 +918,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d4c8a297-c547-4595-a3ee-bb067b538bd6/console_1.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/been/example/EmployeeExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -835,16 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/test/MBGTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,49 +1050,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/test/tzk/MVCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="44" column="72" lean-forward="true" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tzk/been/example/DepartmentExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/been/Msg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1038,45 +1090,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/jquery-1.12.4.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/been/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/service/IEmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1170,26 +1187,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/test/tzk/MapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://d4c8a297-c547-4595-a3ee-bb067b538bd6/schema/tzk_ssm/table/tb_department">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="9a5224e0-69c6-4953-aa45-8e516f6106a5">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d4c8a297-c547-4595-a3ee-bb067b538bd6/schema/tzk_ssm/table/tb_employee">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="9a5224e0-69c6-4953-aa45-8e516f6106a5">
           <filtering>
@@ -1205,14 +1203,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/been/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1228,7 +1222,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tzk/service/impl/DepartmentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="378">
           <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1236,45 +1230,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/controller/DepartmentController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/service/impl/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="72" column="38" lean-forward="true" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list_2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-662">
-          <caret line="211" column="47" selection-start-line="211" selection-start-column="47" selection-end-line="211" selection-end-column="47" />
-          <folding>
-            <element signature="e#2417#2423#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1285,10 +1244,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="324">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/been/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d4c8a297-c547-4595-a3ee-bb067b538bd6/schema/tzk_ssm/table/tb_employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="55612238-3a63-42d3-9829-c55635308f18">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/been/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2740#2741#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/test/MBGTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/test/tzk/MVCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="44" column="72" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/test/tzk/MapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list_2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="349" column="33" selection-start-line="349" selection-start-column="33" selection-end-line="349" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="76" column="52" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/service/IEmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/service/impl/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/been/example/EmployeeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="92" column="26" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tzk/been/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,7 +1393,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>ssm-cruddemo:war</last-edited>
+          <last-edited>ssm-crud:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1345,11 +1440,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|ssm-cruddemo</last-edited>
+          <last-edited>ssm-crud</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.547599" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

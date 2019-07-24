@@ -65,6 +65,22 @@ public class EmployeeController {
         return msg.success().add("pageInfo",pageInfo);
     }
     /**
+     * 添加前验证邮箱是否已经存在
+     * @return return:msg.success以存在。
+     * msg.cod:100为真，200为假
+     * */
+    @RequestMapping("/addValidation")
+    @ResponseBody
+    public Msg addValidation(@RequestParam("email") String email){
+     boolean judge = employeeService.isHasEmail(email);
+     if(judge){
+
+         return msg.success();
+     }else {
+         return msg.fail();
+     }
+    }
+    /**
      * 添加方法
      * */
     @RequestMapping(value = "/add",method = RequestMethod.POST)
@@ -72,5 +88,12 @@ public class EmployeeController {
     public Msg add(Employee employee){
         employeeService.add(employee);
         return msg.success();
+    }
+    /**
+     * 登录
+     * */
+    @RequestMapping("/login")
+    public String login(){
+        return "/employee/list_2";
     }
 }

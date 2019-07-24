@@ -52,15 +52,15 @@ public class MapperTest {
     public void testEmployeeCRUD(){
         System.out.println("employeeMapper = " + employeeMapper);
         /***********************CRUD**************************/
-//        Employee employee = new Employee(1,"天河","F","@wreqqw",3);
+        Employee employee = new Employee(1,"天河","F","@wreqqw",3);
         /*更新*/
-//        employeeMapper.updateByPrimaryKeySelective(employee);
+        employeeMapper.updateByPrimaryKeySelective(employee);
         /*批量插入*/
         EmployeeMapper employeeMapper1 = sqlSession.getMapper(EmployeeMapper.class);
         for (int i = 0; i < 66; i++) {
-//            String uuname = UUID.randomUUID().toString()+i;
-//            employeeMapper1.insertSelective(new Employee(uuname,"F","@tzk.com",null));
-                employeeMapper1.updateByPrimaryKey(new Employee(i,"大河","f","@com",2));
+            String uuname = UUID.randomUUID().toString()+i;
+            employeeMapper1.insertSelective(new Employee(uuname,"F","@tzk.com",null));
+
         }
     }
 }

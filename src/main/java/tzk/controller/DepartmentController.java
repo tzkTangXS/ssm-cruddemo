@@ -23,7 +23,9 @@ public class DepartmentController {
 
     @Autowired
     Msg msg;
-
+    /**
+    * 用于给用户界面的添加和修改功能传递消息。实现下拉列表。
+    * */
     @RequestMapping("/getAll")
     @ResponseBody
     public Msg getAll(){
