@@ -163,6 +163,7 @@
                 /*
                 * 1.解析并显示员工性息
                 * 2.解析并显示分页性息
+                * 3.解析并显示页面跳转条
                 * */
                 build_table(msg);
                 build_page_info(msg);
@@ -189,7 +190,7 @@
                 var deptNameTd=$("<td></td>");
             }
             /*=======操作======*/
-            var editBtn = $("<button></button>").addClass("btn btn-primary btn-sm edit_btn")
+            var editBtn = $("<button></button>").addClass("btn btn-warning btn-sm edit_btn")
                 .append($("<span></span>").addClass("glyphicon glyphicon-pencil")).append("编辑");
             //为编辑按钮添加一个自定义的属性，来表示当前员工id
             editBtn.attr("edit-id",item.empId);
@@ -210,7 +211,7 @@
         $("#page_info").append("当前页码："+msg.data.pageInfo.pageNum+"总共页数："+
             msg.data.pageInfo.pages+"每页行数："+msg.data.pageInfo.pageSize+"总记录数："
             +msg.data.pageInfo.total+"连续显示页数："+msg.data.pageInfo.navigatePages);
-        /*===========给全局变量:总记录数赋值，用于实现保存跳转新添加员工所在一页======*/
+        /*===========给全局变量:页码数加一赋值，用于实现保存跳转新添加员工所在一页======*/
         maxPageBigger=msg.data.pageInfo.pages+1;
     }
     /*==================================================页面导航=============================================*/
@@ -266,7 +267,7 @@
         $("#page_nav").append(nav);
 
     }
-    /*=============================================点击添加按钮=============================================*/
+    /*=============================================点击新增按钮=============================================*/
 
 
     $("#bt_add").click(function () {
@@ -304,7 +305,7 @@
 
         });
     }
-    /*==============正则校验================*/
+    /*=======================================前端正则校验方法======================================*/
     function validationEmp(){
         var judge =false;
         var empName = $("#empName_add").val();
@@ -325,7 +326,7 @@
             changeInformationAboutValidation($("#empName_add"),"error","员工姓名必须为：6～16字母或者2~4个中文字符组成!");
             changeInformationAboutValidation($("#email_add"),"error","邮箱格式不正确!");
             if(regemail.test(email)){
-                changeInformationAboutValidation($("#email_add"),"success","");
+                // changeInformationAboutValidation($("#email_add"),"success","");
             }
         }
 
@@ -334,7 +335,7 @@
 
     }
     /**
-    * 清空模态框里的但验证属性
+    * 清空模态框里的的验证属性
      *
      * */
     function clearValidationAboutModel(id) {
@@ -358,37 +359,45 @@
     }
 
 
-
-    $("#email_add").change(function () {
+        /*==============================输入框内容改变检测校验======================================*/
+    /**
+     * 输入框里的内容改变时检测
+     * 已达到在前端是实行实时监测
+     * 时时校验用户填写内容
+     * 给用户带来最完美的体验*/
+    $("#empName_add").change(function () {
+        validationEmp();
+    });
+   $("#email_add").change(function () {
         var email = this.value;
         $.ajax({
             url:"${path}/employee/addValidation",
             data:"email="+email,
-            type:"POST",
+            type:"GET",
             success:function (msg) {
                 if(msg.cod==100){
                     changeInformationAboutValidation($("#email_add"),"success","");
                     $("#emp_save_bt").attr("email-va","success");
                 }else {
-                    changeInformationAboutValidation($("#email_add"),"error","该邮箱以绑定员工，不可用");
+                    changeInformationAboutValidation($("#email_add"),"error",msg.data.msgValidation);
                     $("#emp_save_bt").attr("email-va","error");
                 }
             }
         });
+        validationEmp();
     });
 
-    //点击保存按钮
-    $("#emp_save_bt").click(function () {
-        /*
-        * 1.使用jquery进行校验
+
+    /*===============================================点击保存按钮========================================*/
+    $("#emp_save_bt").click(function (msg) {
+        /**
+        * 1.使用jquery进行前端校验
         * 2.提交请求给服务器
         * */
-
         if($(this).attr("email-va")=="error"){
-            return false;
+            return;
         }
-
-        if(!validationEmp()){
+      if(!validationEmp()){
             return;
         }
         setTimeout(function () {
@@ -396,10 +405,30 @@
                 url:"${path}/employee/add",
                 type:"POST",
                 data:$("#modal form").serialize(),
-                success:function (result) {
-                    // alert(result.msg);
-                    $("#modal").modal('hide');
-                    skip_page(maxPageBigger);
+                success:function (msg) {
+                    /***
+                     * 进行最终的后端校验
+                     *，防止用户通过修改前端代码录入非法数据
+                     * */
+                    if (msg.cod!=100){
+                        if(msg.data.hasOwnProperty("email")){
+                            changeInformationAboutValidation($("#email_add"),"error",msg.data.email);
+                        }
+                        if(msg.data.hasOwnProperty("fieldError")){
+                            if(msg.data.fieldError.hasOwnProperty("empName")){
+                            changeInformationAboutValidation($("#empName_add"),"error",msg.data.fieldError.empName);
+                            }
+                            if (msg.data.fieldError.hasOwnProperty("email")){
+                                changeInformationAboutValidation($("#email_add"),"error",msg.data.fieldError.email);
+                            }
+                        }
+
+                    } else {
+
+                        /*关闭模态框modal*/
+                        $("#modal").modal('hide');
+                        skip_page(maxPageBigger);
+                    }
                 }
             });
         },1)
